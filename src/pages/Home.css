@@ -1,0 +1,68 @@
+.link {
+  font-size: 18px;
+  margin:5%;
+}
+
+.link:hover {
+  color: #FF9900;
+  text-decoration: underline;
+}
+
+
+.carousel {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.carousel-img {
+  min-width: 100vw;
+  height: 750px;
+  object-fit: cover;
+}
+
+.card {
+  width:450px;
+  height:530px;
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.card-category {
+  width: 50%;
+}
+
+.cards {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  top: 450px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100vw;
+  gap: 15px; 
+
+}
+
+.results-header {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 10px #ddd;
+  font-size: 16px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+
+.category {
+  color: #FF9900;
+  font-weight: bold;
+}

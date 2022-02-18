@@ -1,0 +1,43 @@
+.site-page-header-ghost-wrapper {
+  padding: 2px;
+  background-color: #131921;
+}
+
+.site-page-subheader-ghost-wrapper {
+  background-color: #232f3e;
+  color: white;
+  font-weight: 400;
+  padding: 5px 25px;
+}
+
+.categories{
+  color:white;
+}
+
+.categories:hover{
+  cursor:pointer;
+  color: #adadad; 
+}
+
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.flag {
+  height: 15px;
+}
+
+.header-icon {
+  font-size: 30px;
+}
+
+.header-buttons {
+  color: white;
+}
+
+.header-buttons:hover {
+  cursor: pointer;
+  color: #adadad;
+}
